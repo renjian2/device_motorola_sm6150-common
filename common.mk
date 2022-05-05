@@ -176,8 +176,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.postproc@1.0.vendor \
     android.frameworks.displayservice@1.0.vendor
 
-PRODUCT_PACKAGES += \
-    GCamGOPrebuilt
+$(call inherit-product, vendor/motorola/MotCamera2/MotCamera2-vendor.mk)
 
 # CNE
 PRODUCT_PACKAGES += \
