@@ -287,7 +287,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ril.subscription.types=NV,RUIM \
     ro.telephony.default_network=10,10 \
     ro.vendor.use_data_netmgrd=true \
-    telephony.lteOnCdmaDevice=1,1
+    telephony.lteOnCdmaDevice=1
 
 # SOC
 PRODUCT_PROPERTY_OVERRIDES += \
