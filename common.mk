@@ -144,8 +144,10 @@ PRODUCT_COPY_FILES += \
 # Boot control
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti \
+    android.hardware.boot@1.1-service \
     android.hardware.boot@1.1-impl-qti.recovery \
-    android.hardware.boot@1.1-service
+    bootctrl.lito \
+    bootctrl.lito.recovery
 
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
