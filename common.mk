@@ -146,8 +146,8 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti \
     android.hardware.boot@1.1-service \
     android.hardware.boot@1.1-impl-qti.recovery \
-    bootctrl.lito \
-    bootctrl.lito.recovery
+    bootctrl.sm6150 \
+    bootctrl.sm6150.recovery
 
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
